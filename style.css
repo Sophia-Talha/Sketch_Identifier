@@ -1,0 +1,45 @@
+h1{
+    font-family: 'Cookie', cursive;
+    font-family: 'Redacted', system-ui;
+    font-family: 'Redressed', cursive;
+    font-size: 40px;
+    margin-left:200px;
+}
+p{
+    font-family: 'Cookie', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Redacted', system-ui;
+    font-family: 'Redressed', cursive;
+    font-size: 19px;
+}
+button{
+    font-family: 'Cookie', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Redacted', system-ui;
+    font-family: 'Redressed', cursive;
+}
+body{
+    background-color: lavenderblush;
+}
+#show_sketch{
+    float:right;
+    margin-right:100px;
+}
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 1px 1px 38px cyan;}
+    to {box-shadow: 1px 1pc 38px rgb(234, 201, 255);}
+}
+
+p
+{
+    padding-top:10px;
+    font-size:25px;
+}
